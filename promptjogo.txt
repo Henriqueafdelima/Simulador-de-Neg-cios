@@ -1,0 +1,26 @@
+Preciso de algumas dicas para formular o jogo, vou te explicar a proposta
+
+
+Eu vou decidir na programação o valor da sazonalidade total , a sazonalidade média vai ser a divisão da sazonalidade total por 4 jogadores
+
+É um jogo de simulação de uma empresa, 4 jogadores, cada um tem uma empresa diferente, a gameplay consiste em que os jogadores vão ter 4 rodadas (que serão 4 trimestres até o fim do jogo) a cada trimestre os jogadores precisam definir: o preço do produto, a quantidade de vendedores, a quantidade do produto que deve ser produzida e  o valor a ser investido em propaganda.
+
+Cada jogador escolhe o nome da sua empresa 
+
+O valor que for inserido como preço do produto vai gerar uma media entre os jogadores para definir a diferença média do preço de venda,  (preço de venda / media do preço de venda das equipes)
+
+O valor que for inserido como preço de propaganda vai gerar uma media entre os jogadores para definir a diferença média do preço de venda  (quantidade investida em propaganda/ media do investimento em propaganda das equipes)
+
+E a quantidade de vendedores que for inserida pelos jogadores vai definir uma media de vendedores que vai definir a diferencia média de vendas (quantidade de vendedores / media de vendedores das equipes)
+
+
+O faturamento da empresa vai ser a soma da diferença média da quantidade de vendedores, diferença media do valor do produto e a diferença média do valor investido para propaganda  + 1 tudo isso dividido pela sazonalidade média
+
+
+A quantidade vendida vai ser o faturamento médio do jogador dividido pelo preço do produto
+
+E a diferença da quantidade vendida vai ser a quantidade vendida - a quantidade produzida
+
+no final de cada rodada deve aparecer uma tela de resumo do trimestre aparecendo o ranking de faturamento das empresas
+
+Depois seguir para o semestre subsequente até o 4 trimestre, depois do quarto trimestre deve aparecer a tela final com o ranking indicando o vendedor
